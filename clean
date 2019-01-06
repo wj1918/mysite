@@ -1,0 +1,2 @@
+dev_appserver.py --clear_search_indexes=true --clear_datastore=true --support_datastore_emulator=true app.yaml
+
