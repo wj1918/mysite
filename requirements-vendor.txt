@@ -1,0 +1,6 @@
+Django==1.11
+djangae
+django-csp
+django-session-csrf
+six
+
