@@ -1,0 +1,9 @@
+.idea/
+env/
+lib/
+sitepackages/
+static/
+.storage/
+*.pyc
+
+
