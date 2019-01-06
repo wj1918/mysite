@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'djangae.contrib.security',
     'mysite',
     'polls.apps.PollsConfig',
+    'children.apps.ChildrenConfig',
     # 'djangae.contrib.uniquetool',
 )
 
