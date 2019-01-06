@@ -1,0 +1,7 @@
+ mv django ../lib
+ mv session_csrf ../lib
+ mv djangae ../lib
+ mv pytz ../lib
+ mv csp ../lib
+
+

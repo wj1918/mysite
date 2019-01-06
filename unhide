@@ -1,0 +1,7 @@
+ mv ../lib/django . 
+ mv ../lib/session_csrf .
+ mv ../lib/djangae .
+ mv ../lib/pytz . 
+ mv ../lib/csp . 
+
+
