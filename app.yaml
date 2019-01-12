@@ -29,6 +29,20 @@ handlers:
   script: mysite.wsgi.application
   secure: always
 
+# Only pure Python libraries can be vendored
+# Python libraries that use C extensions can
+# only be included if they are part of the App Engine SDK 
+# Using Third Party Libraries: https://cloud.google.com/appengine/docs/python/tools/using-libraries-python-27
+libraries:
+- name: django
+  version: 1.11
+- name: pytz
+  version: 2016.4
+- name: ssl
+  version: latest
+- name: six
+  version: latest
+
 skip_files:
   - ^manage\.py$
   - ^README\.md$

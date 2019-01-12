@@ -1,2 +1,0 @@
-APP_ENG_DIR=/home/jun/google/google_appengine
-export PYTHONPATH=$APP_ENG_DIR:$APP_ENG_DIR/lib/webob-1.1.1:$APP_ENG_DIR/lib/yaml-3.10
