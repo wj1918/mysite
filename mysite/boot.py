@@ -50,7 +50,7 @@ def get_app_config():
 def register_custom_checks():
     from . import checks
     from django.core.checks import register, Tags
-    register(checks.check_csp_sources_not_unsafe, Tags.security, deploy=True)
+#    register(checks.check_csp_sources_not_unsafe, Tags.security, deploy=True)
     register(checks.check_session_csrf_enabled, Tags.security)
-    register(checks.check_csp_is_not_report_only, Tags.security)
+#    register(checks.check_csp_is_not_report_only, Tags.security)
     register(checks.check_cached_template_loader_used, Tags.caches, deploy=True)
