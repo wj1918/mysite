@@ -3,8 +3,8 @@ from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib.staticfiles.views import serve
 
-import session_csrf
-session_csrf.monkeypatch()
+#import session_csrf
+#session_csrf.monkeypatch()
 
 from django.contrib import admin
 admin.autodiscover()

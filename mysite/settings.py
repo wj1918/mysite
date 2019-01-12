@@ -55,7 +55,7 @@ MIDDLEWARE = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
 #    'csp.middleware.CSPMiddleware',
-    'session_csrf.CsrfMiddleware',
+#    'session_csrf.CsrfMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -77,7 +77,7 @@ TEMPLATES = [
                 "django.template.context_processors.static",
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
-                "session_csrf.context_processor"
+#                "session_csrf.context_processor"
             ],
             'debug': True,
             'loaders': [
@@ -89,8 +89,9 @@ TEMPLATES = [
 ]
 
 SILENCED_SYSTEM_CHECKS = [
-    'security.W003', # We're using session_csrf version of CsrfMiddleware, so we can skip that check
+    'djangae.E001', # skip that check
 ]
+
 from .boot import register_custom_checks
 register_custom_checks()
 
