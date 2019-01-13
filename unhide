@@ -1,3 +1,2 @@
  mv ../lib/django . 
  mv ../lib/djangae .
- mv ../lib/pytz . 

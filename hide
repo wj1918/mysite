@@ -1,3 +1,2 @@
  mv django ../lib
  mv djangae ../lib
- mv pytz ../lib

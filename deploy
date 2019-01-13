@@ -1,1 +1,1 @@
-appcfg.py update ./
+gcloud app deploy
